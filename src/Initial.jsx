@@ -195,9 +195,12 @@ function Initial() {
         <BrowserRouter>
           <Routes>
             <Route
-              path="/timetable"
-              element={<Navigate to="/HomePage" />} // Redirect to HomePage
+              path="/"
+             
+              // element={<Navigate to="/HomePage" />} // Redirect to HomePage
+              element={<HomePage  />} // Redirect to HomePage
             />
+
 
             <Route
               path="selecttimetablepage"
@@ -324,6 +327,16 @@ function Initial() {
           </Routes>
         </BrowserRouter>
       </div>
+
+{/* ................ */}
+
+
+
+
+
+
+
+
       {/* <p>Please select to enter data for which of the following</p>
       <div>
         <label>
